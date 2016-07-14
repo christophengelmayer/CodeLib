@@ -27,5 +27,5 @@ var parallax = (function () {
             }
             return this;
         }
-    }
+    };
 })();
