@@ -6,7 +6,10 @@ module.exports = function(grunt) {
         },
 
         jshint: {
-            dist: ['<%= paths.src %>/**/*.js']
+            dist: [
+                '<%= paths.src %>/**/*.js',
+                '!<%= paths.src %>/**/bower_components/**/*.js'
+            ],
         },
 
         browserSync: {
