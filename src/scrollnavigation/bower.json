@@ -1,0 +1,7 @@
+{
+  "name": "scrollnavigation",
+  "private": true,
+  "dependencies": {
+    "fixed-nav": "adtile/fixed-nav"
+  }
+}
